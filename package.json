@@ -1,0 +1,16 @@
+{
+  "name": "serversideframework",
+  "version": "1.0.0",
+  "description": "this is the server site framework from the coding train yt channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Partha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0",
+    "nodemon": "^2.0.13"
+  }
+}

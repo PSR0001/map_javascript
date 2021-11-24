@@ -1,0 +1,133 @@
+/* CSS code for nav bar */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  border: 3px solid #0d6efd;
+  background-color: #0d6efd;
+  display: block;
+  height: 50px; 
+}
+
+.navbar ul{
+  overflow: auto;
+}
+
+.navbar li{
+  float: left;
+  margin: auto;
+  color: #0d6efd;
+}
+
+.navbar li a{
+  padding: 1px 18px;
+  margin: 5px 5px;
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+
+}
+
+.navbar li a:hover{
+  color: rgb(0, 225, 255);
+}
+
+.navbar input{
+  cursor: pointer;
+  opacity: 0.7;
+  padding: 0px 10px;
+  box-shadow: none;
+}
+
+#scearch{
+  margin: 0px 5px 0px 600px; 
+  padding: 5px 5px;
+  width: 250px;
+  border-radius: 5px;
+  height: 30px;
+}
+
+#scearch:hover{
+  opacity: 1;
+}
+/* --------------------------------------------------------- */
+
+.container{
+    width: 300px;
+    margin: auto;
+}
+#issMap {
+  height: 580px;
+  width: 1200px;
+  margin: auto;
+}
+
+
+@media (max-width:300px)  and (min-width:250px)  {
+  #issMap {
+      height: 400px;
+      width: 250px;
+      margin: auto;
+    }
+    .navbar li a{
+      font-size: 10px;      
+    }
+    .navbar input{
+      display: none;
+    }
+}
+
+@media (max-width:400px)  and (min-width:300px)  {
+    #issMap {
+        height: 400px;
+        width: 300px;
+        margin: auto;
+      }
+      .navbar li a{
+        font-size: 10px;      
+      }
+      .navbar input{
+        display: none;
+      }
+}
+
+@media (max-width:500px) and (min-width:400px) {
+  #issMap {
+      height: 500px;
+      width: 380px;
+      margin: auto;
+    }
+    .navbar li a{
+      font-size: 12px;      
+    }
+    .navbar input{
+      display: none;
+    }
+}
+@media (max-width:600px) and (min-width:500px) {
+  #issMap {
+      height: 450px;
+      width: 380px;
+      margin: auto;
+    }
+    .navbar li a{
+      font-size: 12px;      
+    }
+    .navbar input{
+      display: none;
+    }
+}
+
+@media (max-width:1200px) and (min-width:700px)  {
+    #issMap {
+        height: 700px;
+        width: 650px;
+        margin: auto;
+      }
+      .navbar input{
+        display: none;
+      }
+}
+

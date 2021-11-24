@@ -14,28 +14,49 @@
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin="">
     </script>
-  <style>
-    #issMap {
-      height: 600px;
-      width: 1200px;
-    }
-  </style>
+  <!-- adding css file using link tag -->
+  <link rel="stylesheet" href="css/index.css">
 
 </head>
 
 <body>
-  <h1>Where U are ?</h1>
-  <p>
-    latitude: <span id="latitude"></span>&deg;<br />
-    longitude: <span id="longitude"></span>&deg;
-  </p>
+
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <input type="text" name="scearch" id="scearch" placeholder="scearch this website">
+
+      </ul>
+    </nav>
+
+  </header>
+
+
   <div class="container">
-    <input type="text" id="mood">
-    <button id="submit">submit</button>
+    <h1>Where U are ?</h1>
+    <p>
+      latitude: <span id="latitude"></span>&deg;<br />
+      longitude: <span id="longitude"></span>&deg;
+    </p>
+    <div id="container">
+      <input type="text" id="mood">
+      <button id="submit">submit</button>
+    </div>
   </div>
+
+
 
   <br>
   <div id="issMap"></div>
+  <br>
+  <br>
+  <div class="footer">
+    <h1>@ GDSC KGEC</h1>
+  </div>
 
   <script src="indexOne.js"></script>
   <script src="indexTwo.js"></script>

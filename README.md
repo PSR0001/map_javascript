@@ -58,7 +58,7 @@ npm ./app.js
 
 
 ## **Projects Picture :**
- ![map-pictures](./Screenshot 2022-01-30 164518.png)
+ <img alt="C++" src="Screenshot 2022-01-30 164518.png" />
 <br>
 
 ## **Contribution**

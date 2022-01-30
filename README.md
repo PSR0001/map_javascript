@@ -58,11 +58,11 @@ npm ./app.js
 
 
 ## **Projects Picture :**
- <img alt="C++" src="Screenshot 2022-01-30 164518.png" />
+ <img alt="map" src="Screenshot 2022-01-30 164518.png" />
 <br>
 
 ## **Contribution**
-This is a concept for beginners starting with IoT. Feel free to fork, clone, create issues and/or make PRs. We will be more than happy to receive your contributions.
+This is a concept for beginners starting with Java Script MAP. Feel free to fork, clone, create issues and/or make PRs. We will be more than happy to receive your contributions.
 
 
 
